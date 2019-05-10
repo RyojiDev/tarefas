@@ -25,6 +25,7 @@ Tarefa:
 	<legend>Prioridade:</legend>
 <label>
 	<input type="radio" name="Prioridade" value="baixa" checked/>
+	Baixa
 	<input type="radio" name="prioridade" value="media"/>
 	Média
 	<input type="radio" name="prioridade" value="alta">

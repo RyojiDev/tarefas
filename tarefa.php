@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if (isset($_GET['nome']) && $_GET['nome'] != '') {
 $tarefa = array();
 $tarefa['nome'] = $_GET['nome'];
@@ -20,6 +21,6 @@ $tarefa['concluida'] = $_GET['concluida'];
 $tarefa['concluida'] = '';
 }$_SESSION['lista_tarefas'][] = $tarefa;
 }
-
+$lista_tarefas = array();
 
 include "template.php";
